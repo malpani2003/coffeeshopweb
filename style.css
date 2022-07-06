@@ -1,0 +1,234 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    /* background-image: url(images/home-img.jpeg); */
+
+}
+
+.background {
+    background-image: url(images/home-img.jpeg);
+    background-size: cover;
+
+
+}
+
+.logo {
+    margin-left: 50px;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 200px;
+}
+
+.navbar ul li {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+
+
+    color: white;
+
+}
+
+section h1 {
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 50px;
+    width: 550px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section p {
+    margin-left: 100px;
+    /* margin-top:100px; */
+    font-size: 1.2rem;
+    width: 550px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+}
+
+section button {
+    margin-left: 100px;
+    background-color: #d3ad7f;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+}
+.about button{
+    background-color: #d3ad7f ;
+    color: white;
+    padding:9px;
+}
+
+.about h1 {
+    text-align: center;
+
+}
+
+.photo1 img {
+    width: 500px;
+    height: auto;
+}
+
+.content {
+    margin-left: 20px;
+    color: white;
+}
+
+.product {
+    text-align: center;
+    color: white;
+    border: 0.5px solid white;
+    width: 200px;
+    padding: 20px;
+    margin-left: 50px;
+
+
+}
+
+.product1 {
+    text-align: center;
+    color: white;
+    border: 0.5px solid white;
+    width: 300px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+}
+
+.product:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu button {
+    padding: 5px;
+    background-color: #d3ad7f;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+.menu button:hover {
+    animation-name: buttonhover;
+    animation-duration: 0.5s;
+
+
+}
+
+@keyframes buttonhover {
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 150px;
+    }
+
+}
+
+.coffee {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.contact {
+    color: white;
+    border: 5px solid #d3ad7f;
+    width: 700px;
+    padding: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact input {
+    margin-top: 8px;
+    width: 400px;
+}
+
+.footer {
+    background: var(--black);
+
+}
+
+.footer ul {
+    display: flex;
+    margin-left: 350px;
+}
+
+.footer ul li {
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 1px solid white;
+    padding: 9px;
+}
+
+.footer a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer li:hover {
+    background-color: #d3ad7f;
+
+}
+ form{
+    margin-top:30px;
+    margin-left:100px;
+    
+}
+input[type='text'],input[type='email'],input[type='tel'],input[type='submit']{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type='submit']{
+    background-color: #d3ad7f;
+}
